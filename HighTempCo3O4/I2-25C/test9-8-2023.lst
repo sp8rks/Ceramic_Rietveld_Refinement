@@ -1,0 +1,180 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 15
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: B6 La
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ La        20.57800  19.59900  11.37270   3.28719   2.94817   0.24447  18.77260 133.12400   2.14678
+ B          2.05450   1.33260   1.09790   0.70680  23.21850   1.02100  60.34980   0.14030   0.19320
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ La         0.54610   2.38560   5.06530   5.76010   4.04630   0.14790   1.65520  10.00590  47.32450 145.84640
+ B          0.04360   0.18980   0.67880   1.32730   0.55440   0.12070   1.15950   6.24740  21.04600  59.36190
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ La      Nat. Abund.    138.906    0.824
+ B       Nat. Abund.     10.810    0.530
+
+ Space Group: P m -3 m
+ The lattice is centrosymmetric primitive cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 48
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     La     La      U   0.00000   0.00000   0.00000   1.000    m3m    1    I-0.02128                                                
+      B      B      U   0.19750   0.50000   0.50000   1.000 4mm(x)    6    I 0.00596                                                
+
+ Unit cell: a = 4.15689 b = 4.15689 c = 4.15689 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 71.830 Refine? False
+
+ Phase: B6 La in histogram: PWDR LaB6_Jan2018.raw Scan 1
+=======================================================================================================================================
+ Perform LeBail extraction
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Histogram: PWDR LaB6_Jan2018.raw Scan 1 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:    20.00 deg to    70.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :      373.4282      246.4276        0.0000        0.0000        0.0000
+ refine:          True          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    0.500000    1.540500    1.544300    0.700000    0.002000
+ refine:                   False                               False        True
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :   10.124730   -2.000000    5.000000    0.000000    0.000000    0.000000    0.111222
+ refine:        True       False       False       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:   1776.004  -979.489   383.899  -138.729    64.112   -27.257
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 10 No. of observations: 2533 No. of parameters: 12 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.817s,    0.408s/cycle, for 2 cycles
+ wR =    9.78%, chi**2 =      74217.4, GOF =   5.43
+
+ Phases:
+ Result for phase: B6 La
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     La     La:
+ values:   0.00000   0.00000   0.00000   1.000-0.02128
+ sig   :                                       0.00000 
+      B      B:
+ values:   0.19750   0.50000   0.50000   1.000 0.00596
+ sig   :                                       0.00000 
+
+ Density: 4.7106 g/cm**3
+
+ Phase: B6 La in histogram: PWDR LaB6_Jan2018.raw Scan 1
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 0.00%, 0.00% on 9 reflections
+ Durbin-Watson statistic = 0.642
+ Bragg intensity sum = 7.22e+06
+ Performed LeBail extraction for phase B6 La in histogram PWDR LaB6_Jan2018.raw Scan 1
+
+ Histogram: PWDR LaB6_Jan2018.raw Scan 1 histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 9.78% on 2533 observations in this histogram
+ Other residuals: R = 6.64%, R-bkg = 9.76%, wR-bkg = 9.78% wRmin = 1.81%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       La        B
+ f'     :   -1.418    0.009
+ f"     :    9.034    0.004
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:      358.7581      246.4405        0.0000        0.0000        0.0000
+ sig   :        6.1014        0.3668                                          
+
+ Instrument Parameters:
+ names : I(L2)/I(L1)    Polariz.        SH/L
+ value :    0.500000    0.700000    0.002008
+ sig   :                            0.000018
+
+ Instrument Parameters:
+ names :           U           V           W           X           Y           Z        Zero
+ value :   10.371095   -2.000000    5.000000    0.000000    0.000000    0.000000    0.111222
+ sig   :    0.455113                                                                        
+
+ Background function: chebyschev-1
+ value :       1777    -980.1     387.2      -140     64.65    -28.84
+ sig   :      6.136     10.99     9.743     9.311     7.774     7.435
+ Background sums: empirical 4.16e+06, Debye 0, peaks 0, Total 4.16e+06

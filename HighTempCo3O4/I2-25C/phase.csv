@@ -1,0 +1,17 @@
+"Phase Co O from C:\Users\tsparks.CME-314-01\Google Drive\teaching\6011 Characterization\GSAS XRD Refinement\HighTempCo3O4\I2-25C\demo.gpx"
+
+"Space group:","F m -3 m"
+"a","b","c","alpha","beta","gamma","volume"
+4.266101,4.266101,4.266101,90.0000,90.0000,90.0000,77.641
+"label","elem","mult","x","y","z","frac","Uiso","U11","U22","U33","U12","U13","U23"
+"CO1","Co",4,0.000000,0.000000,0.000000,1.000,,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,
+"O1","O",4,0.500000,0.500000,0.500000,1.000,,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,
+"Phase Co3 O4 from C:\Users\tsparks.CME-314-01\Google Drive\teaching\6011 Characterization\GSAS XRD Refinement\HighTempCo3O4\I2-25C\demo.gpx"
+
+"Space group:","F d -3 m"
+"a","b","c","alpha","beta","gamma","volume"
+8.088798,8.088798,8.088798,90.0000,90.0000,90.0000,529.239
+"label","elem","mult","x","y","z","frac","Uiso","U11","U22","U33","U12","U13","U23"
+"O1","O",32,0.244500,0.244500,0.244500,1.000,,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,
+"CO1","Co",16,0.000000,0.000000,0.000000,1.000,,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,
+"CO2","Co",8,0.375000,0.375000,0.375000,1.000,,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,

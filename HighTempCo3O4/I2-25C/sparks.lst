@@ -1,0 +1,314 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 10
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: Co3 O4
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ O          3.04850   2.28680   1.54630   0.86700  13.27710   5.70110   0.32390  32.90890   0.25080
+ Co        12.28410   7.34090   4.00340   2.34880   4.27910   0.27840  13.53590  71.16920   1.01180
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ O          0.03650   0.17290   0.58050   0.88140   0.31210   0.06520   0.61840   2.94490   9.62980  28.21940
+ Co         0.21860   0.98610   1.85400   2.32580   1.46850   0.11820   1.23000   5.41770  25.76020  80.85420
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ O       Nat. Abund.     15.999    0.581
+ Co      Nat. Abund.     58.933    0.249
+
+ Space Group: F d -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4) 1/4+X, 1/4+Y,    -Z 
+ ( 5)    -Z, 1/4+X, 1/4+Y 
+ ( 6) 1/4+Y,    -Z, 1/4+X 
+ ( 7) 1/4-Z, 1/2+X, 3/4-Y 
+ ( 8) 3/4-Y, 1/4-Z, 1/2+X 
+ ( 9) 1/2+Y, 1/4-Z, 3/4-X 
+ (10) 3/4-X, 1/2+Y, 1/4-Z 
+ (11) 1/4-Z, 3/4-X, 1/2+Y 
+ (12) 1/2+X, 3/4-Y, 1/4-Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16) 1/4+Y, 1/4+X,    -Z 
+ (17)    -Z, 1/4+Y, 1/4+X 
+ (18) 1/4+X,    -Z, 1/4+Y 
+ (19) 1/4-Z, 1/2+Y, 3/4-X 
+ (20) 3/4-X, 1/4-Z, 1/2+Y 
+ (21) 1/2+X, 1/4-Z, 3/4-Y 
+ (22) 3/4-Y, 1/2+X, 1/4-Z 
+ (23) 1/4-Z, 3/4-Y, 1/2+X 
+ (24) 1/2+Y, 3/4-X, 1/4-Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     O1      O      U   0.11950   0.11950   0.11950   1.0003m(111)   32    A        -5.31192-5.31192-5.31192-10.59918-10.59918-10.59918
+    CO1     Co      U  -0.12500  -0.12500  -0.12500   1.000   -43m    8    A        -11.55835-11.55835-11.55835 0.00000 0.00000 0.00000
+    CO2     Co      U   0.25000   0.25000   0.25000   1.0003m(111)   32    A        -0.03085-0.03085-0.03085-1.14964-1.14964-1.14964
+
+ Unit cell: a = 8.08890 b = 8.08890 c = 8.08890 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 529.260 Refine? True
+
+ Phase name: Co O
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Co        12.28410   7.34090   4.00340   2.34880   4.27910   0.27840  13.53590  71.16920   1.01180
+ O          3.04850   2.28680   1.54630   0.86700  13.27710   5.70110   0.32390  32.90890   0.25080
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Co         0.21860   0.98610   1.85400   2.32580   1.46850   0.11820   1.23000   5.41770  25.76020  80.85420
+ O          0.03650   0.17290   0.58050   0.88140   0.31210   0.06520   0.61840   2.94490   9.62980  28.21940
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Co      Nat. Abund.     58.933    0.249
+ O       Nat. Abund.     15.999    0.581
+
+ Space Group: F m -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    CO1     Co      U   0.00000   0.00000   0.00000   1.000    m3m    4    A        -2.11071-2.11071-2.11071 0.00000 0.00000 0.00000
+     O1      O      U   0.50000   0.50000   0.50000   1.000    m3m    4    A        -1.12001-1.12001-1.12001 0.00000 0.00000 0.00000
+
+ Unit cell: a = 4.26670 b = 4.26670 c = 4.26670 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 77.674 Refine? True
+
+ Phase: Co3 O4 in histogram: PWDR CoO25C.RAW Bank 1
+=======================================================================================================================================
+ Phase fraction  :      3.733 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Phase: Co O in histogram: PWDR CoO25C.RAW Bank 1
+=======================================================================================================================================
+ Phase fraction  :      47.69 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Histogram: PWDR CoO25C.RAW Bank 1 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:    17.16 deg to    99.95 deg
+ Excluded region:     19.67 deg to    20.50 deg
+ Excluded region:     32.44 deg to    33.30 deg
+ Excluded region:     38.00 deg to    41.00 deg
+ Excluded region:     44.20 deg to    44.95 deg
+ Excluded region:     46.92 deg to    47.60 deg
+ Excluded region:     57.62 deg to    69.60 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        1.0000        0.0000        0.0000        0.0000        0.0000
+ refine:         False         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    0.500000    1.788920    1.792780    0.500000    0.002000
+ refine:                   False                               False       False
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :    0.756500    0.000000    3.646000    0.000000    0.000000    0.000000    0.000000
+ refine:        True       False       False       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:   1136.705   -44.738   -49.975
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 4 No. of observations: 3806 No. of parameters: 15 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.494s,    0.494s/cycle, for 1 cycles
+ wR =   15.61%, chi**2 =       148539, GOF =   6.26
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :          0::A0      0::AU11:0      0::AU12:0      0::AU11:1      0::AU11:2      0::AU12:2          1::A0      1::AU11:0
+ value :        0.01528       -7.37656      -12.27809      -10.11152       -0.27142       -0.67324        0.05494       -2.10814
+ sig   :        0.00000        0.08194        0.13165        0.06183        0.01194        0.02853        0.00000        0.00363 
+
+ name  :      1::AU11:1      0::AU11:0      0::AU12:0      0::AU11:1      0::AU11:2      0::AU12:2      1::AU11:0      1::AU11:1
+ value :       -1.11694       -7.37656      -12.27809      -10.11152       -0.27142       -0.67324       -2.10814       -1.11694
+ sig   :        0.00680        0.08194        0.13165        0.06183        0.01194        0.02853        0.00363        0.00680 
+
+ Phases:
+ Result for phase: Co3 O4
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.015283571    0.015283571    0.015283571    0.000000000    0.000000000    0.000000000
+  esds  :    0.000001273                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    8.088865    8.088865    8.088865     90.0000     90.0000     90.0000     529.252
+  esds  :    0.000337                                                                   0.066
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     O1      O:
+ values:   0.11950   0.11950   0.11950   1.000        -7.37656-7.37656-7.37656-12.27809-12.27809-12.27809
+ sig   :                                               0.08194 (.08194)(.08194)0.13165 (.13165)(.13165)
+    CO1     Co:
+ values:  -0.12500  -0.12500  -0.12500   1.000        -10.11152-10.11152-10.11152 0.00000 0.00000 0.00000
+ sig   :                                               0.06183 (.06183)(.06183)                        
+    CO2     Co:
+ values:   0.25000   0.25000   0.25000   1.000        -0.27142-0.27142-0.27142-0.67324-0.67324-0.67324
+ sig   :                                               0.01194 (.01194)(.01194)0.02853 (.02853)(.02853)
+
+ Density: 9.0025 g/cm**3
+ Result for phase: Co O
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.054937241    0.054937241    0.054937241    0.000000000    0.000000000    0.000000000
+  esds  :    0.000002487                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    4.266449    4.266449    4.266449     90.0000     90.0000     90.0000      77.660
+  esds  :    0.000097                                                                   0.005
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    CO1     Co:
+ values:   0.00000   0.00000   0.00000   1.000        -2.10814-2.10814-2.10814 0.00000 0.00000 0.00000
+ sig   :                                               0.00363 (.00363)(.00363)                        
+     O1      O:
+ values:   0.50000   0.50000   0.50000   1.000        -1.11694-1.11694-1.11694 0.00000 0.00000 0.00000
+ sig   :                                               0.00680 (.00680)(.00680)                        
+
+ Density: 6.4088 g/cm**3
+
+ Phase: Co3 O4 in histogram: PWDR CoO25C.RAW Bank 1
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 55.89%, 81.23% on 15 reflections
+ Durbin-Watson statistic = 0.065
+ Bragg intensity sum = 1.93e+05
+ Phase fraction  :     3.2309, sig    0.15971 Weight fraction  :  0.38260, sig    0.01536
+
+ Phase: Co O in histogram: PWDR CoO25C.RAW Bank 1
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 12.52%, 27.58% on 5 reflections
+ Durbin-Watson statistic = 0.065
+ Bragg intensity sum = 2.85e+05
+ Phase fraction  :     49.911, sig     2.1158 Weight fraction  :  0.61740, sig    0.01536
+
+ Histogram: PWDR CoO25C.RAW Bank 1 histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 15.61% on 3806 observations in this histogram
+ Other residuals: R = 7.35%, R-bkg = 29.27%, wR-bkg = 15.61% wRmin = 2.50%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:        O       Co
+ f'     :    0.063   -2.023
+ f"     :    0.044    0.573
+
+ Instrument Parameters:
+ names :           U           V           W           X           Y           Z        Zero
+ value :   24.275416    0.000000    3.646000    0.000000    0.000000    0.000000    0.000000
+ sig   :    1.399522                                                                        
+
+ Background function: chebyschev-1
+ value :       1135    -41.87    -36.53
+ sig   :      3.745     5.591     5.947
+ Background sums: empirical 4.35e+06, Debye 0, peaks 0, Total 4.35e+06

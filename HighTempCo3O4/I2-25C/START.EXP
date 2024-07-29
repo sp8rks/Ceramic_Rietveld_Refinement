@@ -1,0 +1,39 @@
+     VERSION   6                                                                
+      DESCR                                                                     
+    HSTRY  1 created readexp.tcl 1.46 2014-01-20T13:23:15                       
+    HSTRY  2 EXPTOOL  Win32  Jan 20 13:23:26 2014 P P                           
+    HSTRY  3 EXPTOOL  Win32  Jan 20 13:23:28 2014 P  A                          
+    HSTRY  4 POWPREF Win32  Jan 20 13:23:33 2014                                
+  DSGL CDAT1  DRAD ARAD NOFO                                                    
+  GNLS CDAT1  MXCY  3                                                           
+ AFAC  O     3.048513.2771 2.2868 5.7011 1.5463  .3239  .867032.9089  .2508 RHF 
+ AFAC  O_    15.999 .5805      .00019                                           
+ AFAC  O_SIZ      1.09      0.89 1.45   96 1.40                                 
+ AFAC  O_XAB  988.0 590.6 293.1 30.48 17.21 1730. 478.0                         
+ AFAC  O_XF1  0.093 0.072 0.049 0.011 0.006 0.121 0.063-0.002-0.003-0.003       
+ AFAC  O_XF2  0.073 0.052 0.032 0.006 0.004 0.106 0.044 0.000 0.000 0.000       
+ AFAC CO    12.2841 4.2791 7.3409  .2784 4.003413.5359 2.348871.1692 1.0118 RHF 
+ AFAC CO   M  .4139 16.162  .6013  4.780 -.1518   .021  .0000   .000  .1345     
+ AFAC CO   N 1.9678 14.170 1.4911  4.948  .3844  1.797  .0000   .000  .0027 2.00
+ AFAC CO_    58.933  .249       37.18                                           
+ AFAC CO_SIZ      1.45      1.25 2.10   97                                      
+ AFAC CO_XAB  12190  7661 33130  4014  1891 20000 6180.                         
+ AFAC CO_XF1 -1.074-1.574-2.365 0.349 0.305-0.731-2.023 0.051 0.045 0.022       
+ AFAC CO_XF2  0.890 0.660 3.614 0.972 0.630 1.227 0.573 0.098 0.092 0.068       
+ EXPR  NATYP    2                                                               
+ EXPR ATYP 1  CO          1      1.45      1.25 2.10   97                       
+ EXPR ATYP 2  O           1      1.09      0.89 1.45   96 1.40                  
+ EXPR NPHAS     1    0    0    0    0    0    0    0    0                       
+CRS1    PNAM  from C:/Documents and Settings/Owner/My Documents/Dropbox/teaching
+CRS1   NATOM    2                                                               
+CRS1  ABC     4.260000  4.260000  4.260000    N    0                            
+CRS1  ANGLES   90.0000   90.0000   90.0000                                      
+CRS1  AT  1A  CO        0.000000  0.000000  0.000000  1.000000CO1        4 000  
+CRS1  AT  1B  0.006333                                                    I     
+CRS1  AT  2A  O         0.500000  0.500000  0.500000  1.000000O1         4 000  
+CRS1  AT  2B  0.006333                                                    I     
+CRS1  CELVOL         77.309                                                     
+CRS1  SG SYM  F m -3 m                                                          
+CRS1  SPAXIS    0    0    1                                                     
+ZZZZZZZZZZZZ  Last EXP file record                                              
+    HSTRY  5 EXPTOOL Win32  Jan 20 13:23:47 2014 Bombed                         
