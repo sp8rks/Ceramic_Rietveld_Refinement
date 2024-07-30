@@ -6,3 +6,4 @@ This repo has presentation slides (PDF), example files (powder diffraction data,
 
 Check out this YouTube tutorial video to follow along with the Co3O4 files in the examples folder
 https://youtu.be/mcuLF0Szd4w?si=lqOMSefrIFVpTIpA
+![My Image](YT_playlist.jpg)
