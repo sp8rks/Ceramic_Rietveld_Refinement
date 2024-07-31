@@ -8,3 +8,8 @@ Check out this YouTube tutorial video to follow along with the Co3O4 files in th
 https://youtu.be/mcuLF0Szd4w?si=lqOMSefrIFVpTIpA
 
 ![My Image](YouTube.jpg)
+
+Check out this YouTube tutorial video to learn how to use VESTA
+[https://youtu.be/mcuLF0Szd4w?si=lqOMSefrIFVpTIpA](https://youtu.be/F7d1YJa7KX4?si=EGCpikQKXjN6Xv_k)
+
+![My Image](YouTube1.jpg)
