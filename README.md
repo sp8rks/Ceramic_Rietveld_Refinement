@@ -13,3 +13,8 @@ Check out this YouTube tutorial video to learn how to use VESTA
 [https://youtu.be/mcuLF0Szd4w?si=lqOMSefrIFVpTIpA](https://youtu.be/F7d1YJa7KX4?si=EGCpikQKXjN6Xv_k)
 
 ![My Image](YouTube1.jpg)
+
+Check out this YouTube tutorial video to learn how to use VESTA
+[https://youtu.be/rUV8VFbUi_U?si=QkhBq8HLUNZ3ohHW](https://youtu.be/rUV8VFbUi_U?si=QkhBq8HLUNZ3ohHW)
+![My Image](YouTube2.jpg)
+
