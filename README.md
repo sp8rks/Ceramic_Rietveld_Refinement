@@ -14,7 +14,7 @@ Check out this YouTube tutorial video to learn how to use VESTA
 
 ![My Image](YouTube1.jpg)
 
-Check out this YouTube video describing fundamentals of good vs bad figures in scientific communication
+Check out this YouTube video describing fundamentals of good vs bad figures in scientific communication!
 [https://youtu.be/rUV8VFbUi_U?si=QkhBq8HLUNZ3ohHW](https://youtu.be/rUV8VFbUi_U?si=QkhBq8HLUNZ3ohHW)
 ![My Image](YouTube2.jpg)
 
