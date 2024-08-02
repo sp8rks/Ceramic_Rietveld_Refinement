@@ -51,60 +51,14 @@ fig = plt.figure(1, figsize=(5, 5))
 gs = gridspec.GridSpec(4, 4)
 gs.update(wspace=0.2, hspace=0.25)
 
-# Generate first panel
-xtr_subsplot = fig.add_subplot(gs[0:4, 0:2])
-
-# Plot data for left panel
-plt.plot(x90, y90, linestyle='none', marker='^', label='90', 
-         color=colors[0], mfc='w', markersize=8)
-plt.plot(x60, y60, linestyle='none', marker='o', label='60', 
-         color=colors[1], markerfacecolor='w', markersize=8)
-plt.plot(x30, y30, linestyle='none', marker='s', label='30', 
-         color=colors[2], markerfacecolor='w', markersize=8)
-
-# Define where you want ticks
-xticks = np.arange(0, (xmax+1), (xmax/4))
-yticks = np.arange(ymin, (ymax+1), (ymax/4))
-
-# or do xticks by hand if they don't look right
-xticks = np.arange(300, 701, 200)
-yticks = np.arange(60, 121, 20)
-
-# Provide info on tick parameters
-plt.minorticks_on()
-plt.tick_params(direction='in', which='minor', length=5, 
-                bottom=True, top=True, left=True, right=True)
-plt.tick_params(direction='in', which='major', length=10, 
-                bottom=True, top=True, left=True, right=True)
-plt.xticks(xticks)
-plt.yticks(yticks)
-
-# Create a legend
-plt.legend()
-
-# Plot limits
-plt.xlim(xmin, xmax)
-plt.ylim(ymin, ymax)
-
-# Create axes labels
-plt.ylabel(r'Transparency % $\alpha$')
-plt.text(645, 52, 'Wavelength (nm)')
-
-# Generate second panel
-xtr_subsplot = fig.add_subplot(gs[0:2, 2:4])
+# Generate the first panel (small upper-left)
+xtr_subsplot = fig.add_subplot(gs[0:2, 0:2])
 plt.plot(x90_clear, y90_clear, linestyle='none', marker='^', 
          label='90 clear', color=colors[3], mfc='w', markersize=8)
 plt.plot(x60_clear, y60_clear, linestyle='none', marker='o', 
          label='60 clear', color=colors[4], mfc='w', markersize=8)
 plt.plot(x30_clear, y30_clear, linestyle='none', marker='s', 
          label='30 clear', color=colors[5], mfc='w', markersize=8)
-
-# Automatically set ticks
-xticks = np.arange(0, (xmax+1), (xmax/4))
-yticks = np.arange(ymin, (ymax+1), (ymax/4))
-# or do xticks by hand if they don't look right
-xticks = np.arange(100, 800, 200)
-yticks = np.arange(60, 121, 20)
 
 # Define tick parameters
 plt.minorticks_on()
@@ -115,6 +69,10 @@ plt.tick_params(direction='in', which='major', length=10,
 plt.tick_params(labelbottom=False, labeltop=False, 
                 labelright=True, labelleft=False)
 
+# Set ticks manually if needed
+xticks = np.arange(300, 701, 200)
+yticks = np.arange(60, 121, 20)
+
 plt.xticks(xticks)
 plt.yticks(yticks)
 
@@ -124,21 +82,14 @@ plt.ylim(ymin, ymax)
 
 plt.legend()
 
-# Generate third panel
-xtr_subsplot = fig.add_subplot(gs[2:4, 2:4])
+# Generate the second panel (small lower-left)
+xtr_subsplot = fig.add_subplot(gs[2:4, 0:2])
 plt.plot(x90_clear, y90_clear, linestyle='none', marker='^', 
          label='90 clear', color=colors[3], mfc='w', markersize=8)
 plt.plot(x60_clear, y60_clear, linestyle='none', marker='o', 
          label='60 clear', color=colors[4], mfc='w', markersize=8)
 plt.plot(x30_clear, y30_clear, linestyle='none', marker='s', 
          label='30 clear', color=colors[5], mfc='w', markersize=8)
-
-# Automatically set ticks
-xticks = np.arange(0, (xmax+1), (xmax/4))
-yticks = np.arange(ymin, (ymax+1), (ymax/4))
-# or do xticks by hand if they don't look right
-xticks = np.arange(100, 800, 200)
-yticks = np.arange(60, 121, 20)
 
 # Define tick parameters
 plt.minorticks_on()
@@ -158,5 +109,38 @@ plt.ylim(ymin, ymax)
 
 plt.legend()
 
+# Generate the third panel (tall right panel)
+xtr_subsplot = fig.add_subplot(gs[0:4, 2:4])
+plt.plot(x90, y90, linestyle='none', marker='^', label='90', 
+         color=colors[0], mfc='w', markersize=8)
+plt.plot(x60, y60, linestyle='none', marker='o', label='60', 
+         color=colors[1], markerfacecolor='w', markersize=8)
+plt.plot(x30, y30, linestyle='none', marker='s', label='30', 
+         color=colors[2], markerfacecolor='w', markersize=8)
+
+# Define tick parameters
+plt.minorticks_on()
+plt.tick_params(direction='in', which='minor', length=5, 
+                bottom=True, top=True, left=True, right=True)
+plt.tick_params(direction='in', which='major', length=10, 
+                bottom=True, top=True, left=True, right=True)
+
+# Set ticks manually if needed
+xticks = np.arange(300, 701, 200)
+yticks = np.arange(60, 121, 20)
+
+plt.xticks(xticks)
+plt.yticks(yticks)
+
+# Plot limits
+plt.xlim(xmin, xmax)
+plt.ylim(ymin, ymax)
+
+# Create axes labels
+plt.ylabel(r'Transparency % $\alpha$')
+plt.text(645, 52, 'Wavelength (nm)')
+
+plt.legend()
+
 # Export figure
-plt.savefig('multi_panel_plot.png', dpi=300, bbox_inches="tight")
+plt.savefig('multi_panel_plot_reversed.png', dpi=300, bbox_inches="tight")
