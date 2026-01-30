@@ -1,0 +1,10 @@
+{
+  "task": "inverse_model_multi",
+  "normalize": true,
+  "smooth": false,
+  "start_angle": 5.0,
+  "end_angle": 90.0,
+  "step": 0.02,
+  "topk": 5,
+  "seed": 42
+}

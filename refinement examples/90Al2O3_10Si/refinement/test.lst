@@ -31,7 +31,7 @@
  Neutron scattering factors:
    Symbol   isotope       mass       b       resonant terms
 ---------------------------------------------------------------------------------------------------
- O-2     Nat. Abund.     15.999    0.581
+ O-2     Nat. Abund.     15.999    0.580
  Al+3    Nat. Abund.     26.982    0.345
 
  Space Group: R -3 c
@@ -55,10 +55,10 @@
  Atoms:
    name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
 ---------------------------------------------------------------------------------------------------------------------------------------
-     O1    O-2     XU   0.69166   0.00000   0.25000   1.000 2(100)   18    I 0.05250                                                
-    Al1   Al+3     XU   0.00000   0.00000   0.35216   1.000      3   12    I 0.04947                                                
+     O1    O-2      U   0.69365   0.00000   0.25000   1.000 2(100)   18    I 0.05056                                                
+    Al1   Al+3      U   0.00000   0.00000   0.35217   1.000      3   12    I 0.04806                                                
 
- Unit cell: a = 4.76202 b = 4.76202 c = 12.99882 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 255.280 Refine? True
+ Unit cell: a = 4.76176 b = 4.76176 c = 12.99870 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 255.250 Refine? True
 
  Phase name: Si
 =======================================================================================================================================
@@ -117,17 +117,17 @@
  Atoms:
    name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
 ---------------------------------------------------------------------------------------------------------------------------------------
-     Si     Si      U   0.12500   0.12500   0.12500   1.000   -43m    8    I 0.03517                                                
+     Si     Si      U   0.12500   0.12500   0.12500   1.000   -43m    8    I 0.03816                                                
 
- Unit cell: a = 5.43224 b = 5.43224 c = 5.43224 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 160.302 Refine? True
+ Unit cell: a = 5.43202 b = 5.43202 c = 5.43202 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 160.282 Refine? True
 
- Phase: Al2 O3 in histogram: PWDR Al2O390_Si10.xy
+ Phase: Al2 O3 in histogram: PWDR Al2O390_Si10.brml RawData0.xml
 =======================================================================================================================================
- Phase fraction  :      7.843 Refine? True
+ Phase fraction  :      174.8 Refine? True
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       1.000 Refine? True
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -139,13 +139,13 @@
  refine:       False       False
  Layer Displacement:      0.000 Refine? False
 
- Phase: Si in histogram: PWDR Al2O390_Si10.xy
+ Phase: Si in histogram: PWDR Al2O390_Si10.brml RawData0.xml
 =======================================================================================================================================
- Phase fraction  :     0.6756 Refine? True
+ Phase fraction  :      15.74 Refine? True
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       1.000 Refine? True
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -157,7 +157,7 @@
  refine:       False       False
  Layer Displacement:      0.000 Refine? False
 
- Histogram: PWDR Al2O390_Si10.xy histogram Id: 0
+ Histogram: PWDR Al2O390_Si10.brml RawData0.xml histogram Id: 0
 =======================================================================================================================================
  Instrument type: Bragg-Brentano
  Histogram limits:    10.00 deg to    80.99 deg
@@ -165,32 +165,32 @@
  Sample Parameters:
  Goniometer omega = 0.00, chi = 0.00, phi = 0.00
  name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
- value :       22.6790        0.0000        0.0000        0.0000        0.0000
+ value :        1.0000        0.0000        0.0000        0.0000        0.0000
  refine:         False         False         False         False         False
 
  Instrument Parameters:
  name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
- value :    0.000000    0.500000    1.540500    1.544300    0.700000    0.002000  261.888095   -2.000000  -88.876923
- refine:                   False                               False       False        True       False        True
+ value :    0.000000    0.500000    1.540500    1.544300    0.700000    0.010645   16.214481  -96.983641   16.333149
+ refine:                   False                               False        True        True        True        True
 
  name  :           X           Y           Z        Zero
- value :    6.786012   13.091838    0.000000    0.000000
+ value :    4.103021   20.571564    0.074193    0.000000
  refine:        True        True       False       False
 
  Background function: chebyschev-1 Refine? True
- Coefficients:     73.058   -40.495    -4.971
+ Coefficients:     72.926   -41.056    -4.786
  Fixed background file: ; mult: 1.000  Refine? False
 
  Refinement results:
 ---------------------------------------------------------------------------------------------------------------------------------------
- Number of function calls: 6 No. of observations: 5011 No. of parameters: 17 User rejected: 0 Sp. gp. extinct: 0
- Refinement time =    0.831s,    0.831s/cycle, for 1 cycles
- wR =   13.21%, chi**2 =      18443.6, GOF =   1.92
+ Number of function calls: 34 No. of observations: 5011 No. of parameters: 19 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    3.936s,    0.358s/cycle, for 11 cycles
+ wR =   12.07%, chi**2 =      15399.7, GOF =   1.76
 ----------------------------------------------------------------------------------------------------------------------------------
 Parameters generated by constraints
 
  name  :          0::A0          1::A0
- value :        0.05880        0.03388
+ value :        0.05880        0.03389
  sig   :        0.00000        0.00000 
 
  Phases:
@@ -198,63 +198,65 @@ Parameters generated by constraints
 =======================================================================================================================================
  Reciprocal metric tensor: 
   names :            A11            A22            A33            A12            A13            A23
-  values:    0.058797081    0.058797081    0.005918178    0.058797081    0.000000000    0.000000000
-  esds  :    0.000002256                   0.000000274                                             
+  values:    0.058803123    0.058803123    0.005918322    0.058803123    0.000000000    0.000000000
+  esds  :    0.000002305                   0.000000278                                             
  New unit cell:
   names :           a           b           c       alpha        beta       gamma      Volume
-  values:    4.762023    4.762023   12.998881     90.0000     90.0000    120.0000     255.282
-  esds  :    0.000152                0.000300                                           0.008
+  values:    4.761778    4.761778   12.998724     90.0000     90.0000    120.0000     255.252
+  esds  :    0.000156                0.000305                                           0.011
 
  Atoms:
    name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
 ---------------------------------------------------------------------------------------------------------------------------------------
      O1    O-2:
- values:   0.69166   0.00000   0.25000   1.000 0.05242
- sig   :   0.00029                             0.00065 
+ values:   0.69365   0.00000   0.25000   1.000 0.05084
+ sig   :                                       0.00057 
     Al1   Al+3:
- values:   0.00000   0.00000   0.35216   1.000 0.04940
- sig   :                       0.00009         0.00052 
+ values:   0.00000   0.00000   0.35217   1.000 0.04839
+ sig   :                                       0.00047 
 
- Density: 3.9794 g/cm**3
+ Density: 3.9798 g/cm**3
  Result for phase: Si
 =======================================================================================================================================
  Reciprocal metric tensor: 
   names :            A11            A22            A33            A12            A13            A23
-  values:    0.033882092    0.033882092    0.033882092    0.000000000    0.000000000    0.000000000
-  esds  :    0.000004624                                                                           
+  values:    0.033889426    0.033889426    0.033889426    0.000000000    0.000000000    0.000000000
+  esds  :    0.000003682                                                                           
  New unit cell:
   names :           a           b           c       alpha        beta       gamma      Volume
-  values:    5.432690    5.432690    5.432690     90.0000     90.0000     90.0000     160.341
-  esds  :    0.000371                                                                   0.033
+  values:    5.432102    5.432102    5.432102     90.0000     90.0000     90.0000     160.289
+  esds  :    0.000295                                                                   0.026
 
  Atoms:
    name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
 ---------------------------------------------------------------------------------------------------------------------------------------
      Si     Si:
- values:   0.12500   0.12500   0.12500   1.000 0.03542
- sig   :                                       0.00250 
+ values:   0.12500   0.12500   0.12500   1.000 0.03818
+ sig   :                                       0.00221 
 
- Density: 2.3269 g/cm**3
+ Density: 2.3277 g/cm**3
 
- Phase: Al2 O3 in histogram: PWDR Al2O390_Si10.xy
+ Phase: Al2 O3 in histogram: PWDR Al2O390_Si10.brml RawData0.xml
 =======================================================================================================================================
- Final refinement RF, RF^2 = 1.69%, 2.04% on 19 reflections
- Durbin-Watson statistic = 0.625
- Bragg intensity sum = 8.86e+05
- Phase fraction  :     7.8419, sig   0.046083 Weight fraction  :  0.96934, sig    0.00070
+ Final refinement RF, RF^2 = 1.60%, 2.37% on 19 reflections
+ Durbin-Watson statistic = 0.726
+ Bragg intensity sum = 8.89e+05
+ Phase fraction  :     175.68, sig    0.91903 Weight fraction  :  0.96763, sig    0.00065
 
- Phase: Si in histogram: PWDR Al2O390_Si10.xy
+ Size model:     isotropic equatorial:     0.23220, sig:  0.0155 LG mix coeff.:      1.0000
+
+ Phase: Si in histogram: PWDR Al2O390_Si10.brml RawData0.xml
 =======================================================================================================================================
- Final refinement RF, RF^2 = 11.39%, 25.46% on 6 reflections
- Durbin-Watson statistic = 0.625
- Bragg intensity sum = 6.14e+04
- Phase fraction  :    0.67535, sig   0.015422 Weight fraction  :  0.03066, sig    0.00070
+ Final refinement RF, RF^2 = 10.82%, 24.87% on 6 reflections
+ Durbin-Watson statistic = 0.726
+ Bragg intensity sum = 6.26e+04
+ Phase fraction  :     16.001, sig    0.32011 Weight fraction  :  0.03237, sig    0.00065
 
- Histogram: PWDR Al2O390_Si10.xy histogram Id: 0
+ Histogram: PWDR Al2O390_Si10.brml RawData0.xml histogram Id: 0
 =======================================================================================================================================
  PWDR histogram weight factor = 1.000
- Final refinement wR = 13.21% on 5011 observations in this histogram
- Other residuals: R = 8.86%, R-bkg = 8.28%, wR-bkg = 13.21% wRmin = 6.89%
+ Final refinement wR = 12.07% on 5011 observations in this histogram
+ Other residuals: R = 8.42%, R-bkg = 7.80%, wR-bkg = 12.07% wRmin = 6.89%
  Instrument type: Bragg-Brentano
 
  Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
@@ -264,8 +266,8 @@ Parameters generated by constraints
 
  Instrument Parameters:
  names : I(L2)/I(L1)    Polariz.        SH/L           U           V           W           X           Y           Z
- value :    0.500000    0.700000    0.002000  262.534072   -2.000000  -90.694446    6.721920   13.440958    0.000000
- sig   :                                        3.413921                0.578813    0.403374    1.087165            
+ value :    0.500000    0.700000    0.010855  -18.605911 -114.454292   10.577483    3.016854   16.792022    0.074193
+ sig   :                            0.001191    8.272576    7.362443    1.543989    0.409691    1.036464            
 
  Instrument Parameters:
  names :        Zero
@@ -273,6 +275,6 @@ Parameters generated by constraints
  sig   :            
 
  Background function: chebyschev-1
- value :      73.02    -40.55    -4.925
- sig   :     0.3133    0.4723    0.4469
+ value :      73.02    -40.81    -4.848
+ sig   :     0.2855    0.4294    0.4101
  Background sums: empirical 3.74e+05, Debye 0, peaks 0, Total 3.74e+05

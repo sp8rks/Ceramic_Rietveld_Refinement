@@ -1,0 +1,5 @@
+Target cystalline phase: Hardystonite Ca2ZnSi2O7, JCPDS card 75-0916
+Sample composition: Ca1.94ZnSi2O7:0.02 Eu, 0.04 Dy
+Precursor preparation through the  sol-gel approach
+Sintering temperature set-up: 1300 °C/ 6 hours
+Note: All constituent chemicals were mixed and dissolved in ethyl alcohol. Nitric acid was added to maintain the solution pH around 2. Ethylene glycol was added as a complexing agent.

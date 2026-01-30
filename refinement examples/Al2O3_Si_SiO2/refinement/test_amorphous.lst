@@ -1,0 +1,359 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 20
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: Al2 O3
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+ Al+3       4.17448   3.38760   1.20296   0.52814   1.93816   4.14553   0.22875   8.28524   0.70679
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ O-2     Nat. Abund.     15.999    0.580
+ Al+3    Nat. Abund.     26.982    0.345
+
+ Space Group: R -3 c
+ The lattice is centrosymmetric R-centered trigonal
+ The Laue symmetry is 3m1
+ The lattice point group is -3m
+ Multiplicity of a general site is 36
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 2/3,1/3,1/3; 1/3,2/3,2/3)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,   X-Y,     Z 
+ ( 3)   Y-X,    -X,     Z 
+ ( 4)   Y-X,     Y, 1/2+Z 
+ ( 5)    -Y,    -X, 1/2+Z 
+ ( 6)     X,   X-Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     O1    O-2      U   0.69365   0.00000   0.25000   1.000 2(100)   18    I-1.85458                                                
+    Al1   Al+3      U   0.00000   0.00000   0.35217   1.000      3   12    I-1.99272                                                
+
+ Unit cell: a = 4.75617 b = 4.75617 c = 12.98165 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 254.317 Refine? True
+
+ Phase name: Si
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Si         6.29150   3.03530   1.98910   1.54100   2.43860  32.33370   0.67850  81.69370   1.14070
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Si         0.05670   0.33650   0.81040   2.49600   2.11860   0.05820   0.61550   3.25220  16.79290  57.67670
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Si      Nat. Abund.     28.086    0.415
+
+ Space Group: F d -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4) 1/4+X, 1/4+Y,    -Z 
+ ( 5)    -Z, 1/4+X, 1/4+Y 
+ ( 6) 1/4+Y,    -Z, 1/4+X 
+ ( 7) 1/4-Z, 1/2+X, 3/4-Y 
+ ( 8) 3/4-Y, 1/4-Z, 1/2+X 
+ ( 9) 1/2+Y, 1/4-Z, 3/4-X 
+ (10) 3/4-X, 1/2+Y, 1/4-Z 
+ (11) 1/4-Z, 3/4-X, 1/2+Y 
+ (12) 1/2+X, 3/4-Y, 1/4-Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16) 1/4+Y, 1/4+X,    -Z 
+ (17)    -Z, 1/4+Y, 1/4+X 
+ (18) 1/4+X,    -Z, 1/4+Y 
+ (19) 1/4-Z, 1/2+Y, 3/4-X 
+ (20) 3/4-X, 1/4-Z, 1/2+Y 
+ (21) 1/2+X, 1/4-Z, 3/4-Y 
+ (22) 3/4-Y, 1/2+X, 1/4-Z 
+ (23) 1/4-Z, 3/4-Y, 1/2+X 
+ (24) 1/2+Y, 3/4-X, 1/4-Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Si     Si      U   0.12500   0.12500   0.12500   1.000   -43m    8    I-0.55437                                                
+
+ Unit cell: a = 5.40741 b = 5.40741 c = 5.40741 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 158.113 Refine? True
+
+ Phase name: O2 Si
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+ Si+4       4.43918   3.20345   1.19453   0.41653   1.64167   3.43757   0.21490   6.65365   0.74630
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ O-2     Nat. Abund.     15.999    0.580
+ Si+4    Nat. Abund.     28.086    0.415
+
+ Space Group: P 31 2 1
+ The lattice is noncentrosymmetric primitive trigonal
+ The Laue symmetry is 3m1
+ The lattice point group is 321
+ Multiplicity of a general site is 6
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,   X-Y, 1/3+Z 
+ ( 3)   Y-X,    -X, 2/3+Z 
+ ( 4)     Y,     X,    -Z 
+ ( 5)    -X,   Y-X, 1/3-Z 
+ ( 6)   X-Y,    -Y, 2/3-Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     O1    O-2          0.41300   0.27110   0.21720   1.000      1    6    I 0.00000                                                
+    Si1   Si+4          0.46730   0.00000   0.33330   1.000 2(100)    3    I 0.00000                                                
+
+ Unit cell: a = 4.90190 b = 4.90190 c = 5.39880 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 112.346 Refine? False
+
+ Phase: Al2 O3 in histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml
+=======================================================================================================================================
+ Phase fraction  :      21.31 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Phase: Si in histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml
+=======================================================================================================================================
+ Phase fraction  :      9.027 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Phase: O2 Si in histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:    10.00 deg to    80.99 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        1.0000        0.0000        0.0000        0.0000        0.0000
+ refine:         False         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540500    1.544300    0.700000    0.002000-3329.312743   -2.000000    5.000000
+ refine:                   False                               False       False        True       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    0.000000    0.000000    0.000000    0.000000
+ refine:        True       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    248.258   -75.912   -29.613
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 22 No. of observations: 5011 No. of parameters: 14 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    3.105s,    0.517s/cycle, for 6 cycles
+ wR =   30.17%, chi**2 =       151282, GOF =   5.50
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :          0::A0          1::A0
+ value :        0.05895        0.03417
+ sig   :        0.00001        0.00001 
+
+ Phases:
+ Result for phase: Al2 O3
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.058946732    0.058946732    0.005935254    0.058946732    0.000000000    0.000000000
+  esds  :    0.000005179                   0.000000722                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    4.755974    4.755974   12.980169     90.0000     90.0000    120.0000     254.267
+  esds  :    0.000348                0.000790                                           0.022
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     O1    O-2:
+ values:   0.69365   0.00000   0.25000   1.000-1.85421
+ sig   :                                       0.00380 
+    Al1   Al+3:
+ values:   0.00000   0.00000   0.35217   1.000-1.99372
+ sig   :                                       0.00286 
+
+ Density: 3.9953 g/cm**3
+ Result for phase: Si
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.034166835    0.034166835    0.034166835    0.000000000    0.000000000    0.000000000
+  esds  :    0.000006654                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    5.410004    5.410004    5.410004     90.0000     90.0000     90.0000     158.341
+  esds  :    0.000527                                                                   0.046
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Si     Si:
+ values:   0.12500   0.12500   0.12500   1.000-0.49524
+ sig   :                                       0.00701 
+
+ Density: 2.3563 g/cm**3
+ Result for phase: O2 Si
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     O1    O-2:
+ values:   0.41300   0.27110   0.21720   1.000 0.00000
+ sig   :                                               
+    Si1   Si+4:
+ values:   0.46730   0.00000   0.33330   1.000 0.00000
+ sig   :                                               
+
+ Density: 2.6642 g/cm**3
+
+ Phase: Al2 O3 in histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 22.82%, 34.56% on 19 reflections
+ Durbin-Watson statistic = 0.061
+ Bragg intensity sum = 2.87e+05
+ Phase fraction  :     30.936, sig     1.2975 Weight fraction  :  0.88661, sig    0.00945
+
+ Phase: Si in histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 15.42%, 20.20% on 6 reflections
+ Durbin-Watson statistic = 0.061
+ Bragg intensity sum = 2.06e+05
+ Phase fraction  :      10.43, sig    0.88124 Weight fraction  :  0.10978, sig    0.00903
+
+ Phase: O2 Si in histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 68.58%, 98.28% on 35 reflections
+ Durbin-Watson statistic = 0.061
+ Bragg intensity sum = 1.57e+03
+ Phase fraction  :    0.42762, sig    0.38193 Weight fraction  :  0.00361, sig    0.00321
+
+ Histogram: PWDR Al2O3_Si_SiO2.brml RawData0.xml histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 43.79% on 5011 observations in this histogram
+ Other residuals: R = 25.85%, R-bkg = 39.23%, wR-bkg = 43.79% wRmin = 5.49%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:      O-2     Al+3       Si     Si+4
+ f'     :    0.049    0.213    0.254    0.254
+ f"     :    0.032    0.246    0.330    0.330
+
+ Instrument Parameters:
+ names : I(L2)/I(L1)    Polariz.        SH/L           U           V           W           X           Y           Z
+ value :    0.500000    0.700000    0.002000-3321.689958   -2.000000    5.000000    5.088776    0.000000    0.000000
+ sig   :                                        2.356888                            0.427296                        
+
+ Instrument Parameters:
+ names :        Zero
+ value :    0.000000
+ sig   :            
+
+ Background function: chebyschev-1
+ value :      243.6    -78.82    -25.47
+ sig   :      1.454     2.174     2.068
+ Background sums: empirical 1.26e+06, Debye 0, peaks 0, Total 1.26e+06
