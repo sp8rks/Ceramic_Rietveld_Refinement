@@ -5,7 +5,20 @@ data in Python with [rietx](https://rietx.org) and uses it as a cross-check on t
 `refinement examples/`. Every notebook reads the original files in place (relative paths into
 `../refinement examples/`) and changes none of them.
 
-## Install
+## Run in Google Colab (nothing to install)
+
+| Notebook | |
+|---|---|
+| 01. LaB6 instrument calibration | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sp8rks/Ceramic_Rietveld_Refinement/blob/main/scripted%20refinement%20%28rietx%29/01_LaB6_instrument_calibration.ipynb) |
+| 02. Al2O3/Si quantitative phase analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sp8rks/Ceramic_Rietveld_Refinement/blob/main/scripted%20refinement%20%28rietx%29/02_Al2O3_Si_quantitative_phase_analysis.ipynb) |
+| 03. Co3O4 temperature series | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sp8rks/Ceramic_Rietveld_Refinement/blob/main/scripted%20refinement%20%28rietx%29/03_Co3O4_temperature_series.ipynb) |
+
+The first code cell of each notebook installs rietx and clones this repository for the data when it detects
+Colab (about a minute); run the cells top to bottom. The notebooks open with their saved outputs, so you can
+also just read them. Notebook 02 uses `lab_profile.json`, which is in the repository, so it runs without
+notebook 01 first. The Co3O4 series (notebook 03) takes several minutes on Colab's free CPU.
+
+## Install locally
 
 Python 3.11 or newer.
 
