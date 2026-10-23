@@ -1,0 +1,4 @@
+__pycache__/
+.ipynb_checkpoints/
+# rietx writes a run log per refinement here; regenerated every time the notebooks run
+.rietx/

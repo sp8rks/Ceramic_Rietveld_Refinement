@@ -73,3 +73,24 @@ The videos are arranged as a suggested learning path. If you are new to diffract
     </td>
   </tr>
 </table>
+
+### 4. Scripted and AI-assisted refinement
+
+A second track that refines the same data in Python with [rietx](https://rietx.org) and cross-checks the GSAS-II results. GSAS-II remains the main tool for the workshop. Install and usage notes, including how to use it with Claude Code, are in [`scripted refinement (rietx)`](scripted%20refinement%20%28rietx%29/).
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="scripted%20refinement%20%28rietx%29/01_LaB6_instrument_calibration.ipynb"><b>01. LaB6 Instrument Calibration</b></a><br>
+      Calibrate the instrument on a standard and track down a negative-B misfit
+    </td>
+    <td align="center" width="33%">
+      <a href="scripted%20refinement%20%28rietx%29/02_Al2O3_Si_quantitative_phase_analysis.ipynb"><b>02. Al2O3/Si Phase Analysis</b></a><br>
+      Two codes agree on 96.8/3.2 wt%, the balance says 90/10: why?
+    </td>
+    <td align="center" width="33%">
+      <a href="scripted%20refinement%20%28rietx%29/03_Co3O4_temperature_series.ipynb"><b>03. Co3O4 Temperature Series</b></a><br>
+      Refine a heating and cooling cycle in one script
+    </td>
+  </tr>
+</table>

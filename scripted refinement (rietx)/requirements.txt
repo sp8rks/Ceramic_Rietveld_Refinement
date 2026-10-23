@@ -1,0 +1,4 @@
+# Python >= 3.11. The notebooks were executed with rietx 1.9.0; diagnostic text and
+# numbers can change between rietx versions, so the pin keeps them reproducible.
+rietx[viz]==1.9.0
+jupyterlab
