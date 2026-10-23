@@ -17,18 +17,23 @@ The videos are arranged as a suggested learning path. If you are new to diffract
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <a href="https://youtu.be/ZJVZ997b8u0"><img src="https://img.youtube.com/vi/ZJVZ997b8u0/mqdefault.jpg" width="240" alt="XRD optics explainer"></a><br>
+    <td align="center" width="25%">
+      <a href="https://youtu.be/gsalQKpI_aA"><img src="https://img.youtube.com/vi/gsalQKpI_aA/mqdefault.jpg" width="200" alt="Bragg's law explainer"></a><br>
+      <b>Bragg's Law</b><br>
+      Why X-rays can "see" atoms
+    </td>
+    <td align="center" width="25%">
+      <a href="https://youtu.be/ZJVZ997b8u0"><img src="https://img.youtube.com/vi/ZJVZ997b8u0/mqdefault.jpg" width="200" alt="XRD optics explainer"></a><br>
       <b>XRD Optics</b><br>
       How the diffractometer shapes the beam and the pattern
     </td>
-    <td align="center" width="33%">
-      <a href="https://youtu.be/IBkl9OUuHMs"><img src="https://img.youtube.com/vi/IBkl9OUuHMs/mqdefault.jpg" width="240" alt="Peak broadening explainer"></a><br>
+    <td align="center" width="25%">
+      <a href="https://youtu.be/IBkl9OUuHMs"><img src="https://img.youtube.com/vi/IBkl9OUuHMs/mqdefault.jpg" width="200" alt="Peak broadening explainer"></a><br>
       <b>Peak Broadening</b><br>
       Instrument, crystallite size, and strain contributions
     </td>
-    <td align="center" width="33%">
-      <a href="https://youtu.be/G0eCClDcHrw"><img src="https://img.youtube.com/vi/G0eCClDcHrw/mqdefault.jpg" width="240" alt="Rietveld refinement explainer"></a><br>
+    <td align="center" width="25%">
+      <a href="https://youtu.be/G0eCClDcHrw"><img src="https://img.youtube.com/vi/G0eCClDcHrw/mqdefault.jpg" width="200" alt="Rietveld refinement explainer"></a><br>
       <b>Rietveld Refinement</b><br>
       What the method fits and why
     </td>
@@ -39,12 +44,17 @@ The videos are arranged as a suggested learning path. If you are new to diffract
 
 <table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
+      <a href="https://youtu.be/E5aGgf9wHFc"><img src="https://img.youtube.com/vi/E5aGgf9wHFc/mqdefault.jpg" width="240" alt="XRD search/match tutorial"></a><br>
+      <b>XRD Search/Match</b><br>
+      Identify your phases first, and know when to distrust the match
+    </td>
+    <td align="center" width="33%">
       <a href="https://youtu.be/mcuLF0Szd4w"><img src="https://img.youtube.com/vi/mcuLF0Szd4w/mqdefault.jpg" width="240" alt="Co3O4 Rietveld tutorial"></a><br>
       <b>Click-by-Click Rietveld Tutorial</b><br>
       Follow along with the Co3O4 files in <code>examples</code>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <a href="https://youtu.be/F7d1YJa7KX4"><img src="https://img.youtube.com/vi/F7d1YJa7KX4/mqdefault.jpg" width="240" alt="VESTA tutorial"></a><br>
       <b>Visualizing Structures in VESTA</b><br>
       Turn your refined CIF into a crystal structure figure
