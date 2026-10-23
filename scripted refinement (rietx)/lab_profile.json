@@ -1,0 +1,188 @@
+{
+ "instrument_profile": "1",
+ "schema_version": "0.55",
+ "created_utc": "2026-10-23T17:58:18Z",
+ "instrument": {
+  "source": {
+   "kind": "xray_cw",
+   "lines": [
+    {
+     "wavelength": {
+      "value": 1.5405929,
+      "vary": false,
+      "min": 0.001,
+      "max": Infinity,
+      "expr": null,
+      "unit": "A",
+      "stderr": null
+     },
+     "weight": {
+      "value": 1.0,
+      "vary": false,
+      "min": 0.0,
+      "max": 2.0,
+      "expr": null,
+      "unit": null,
+      "stderr": null
+     }
+    },
+    {
+     "wavelength": {
+      "value": 1.5444274,
+      "vary": false,
+      "min": 0.001,
+      "max": Infinity,
+      "expr": null,
+      "unit": "A",
+      "stderr": null
+     },
+     "weight": {
+      "value": 0.4666738339352996,
+      "vary": false,
+      "min": 0.0,
+      "max": 1.0,
+      "expr": null,
+      "unit": null,
+      "stderr": 0.006191544128178024
+     }
+    }
+   ],
+   "polarization": {
+    "value": 0.5,
+    "vary": false,
+    "min": 0.0,
+    "max": 1.0,
+    "expr": null,
+    "unit": null,
+    "stderr": null
+   },
+   "kbeta": null,
+   "dispersion": {
+    "table": "cromer_liberman",
+    "overrides": {}
+   },
+   "harmonics": []
+  },
+  "geometry": {
+   "kind": "bragg_brentano",
+   "goniometer_radius_mm": 250.0,
+   "surface_roughness": null,
+   "sample_displacement": {
+    "value": 0.0,
+    "vary": false,
+    "min": -1.0,
+    "max": 1.0,
+    "expr": null,
+    "unit": "mm",
+    "stderr": null
+   },
+   "sample_transparency": {
+    "value": 0.0,
+    "vary": false,
+    "min": 0.0,
+    "max": 0.05,
+    "expr": null,
+    "unit": null,
+    "stderr": null
+   },
+   "capillary_offset_along_beam": {
+    "value": 0.0,
+    "vary": false,
+    "min": -1.0,
+    "max": 1.0,
+    "expr": null,
+    "unit": "mm",
+    "stderr": null
+   },
+   "capillary_offset_across_beam": {
+    "value": 0.0,
+    "vary": false,
+    "min": -1.0,
+    "max": 1.0,
+    "expr": null,
+    "unit": "mm",
+    "stderr": null
+   },
+   "axial_sl": {
+    "value": 0.023363898420745318,
+    "vary": false,
+    "min": 0.0,
+    "max": 0.2,
+    "expr": null,
+    "unit": null,
+    "stderr": 0.0003085359577090921
+   },
+   "axial_hl": {
+    "value": 0.023363898420745318,
+    "vary": false,
+    "min": 0.0,
+    "max": 0.2,
+    "expr": null,
+    "unit": null,
+    "stderr": 0.0003085359577090921
+   },
+   "mu_r": null,
+   "capillary_radius_mm": null,
+   "mu_t": null,
+   "thickness_mm": null,
+   "packing_fraction": 0.6
+  },
+  "zero_shift": {
+   "value": 0.024186291330136438,
+   "vary": false,
+   "min": -0.5,
+   "max": 0.5,
+   "expr": null,
+   "unit": "deg",
+   "stderr": 0.0003528192056139849
+  },
+  "profile": {
+   "shape": "tchz_pv",
+   "u": {
+    "value": -0.011771301185674323,
+    "vary": false,
+    "min": -0.05,
+    "max": 1.0,
+    "expr": null,
+    "unit": "deg^2",
+    "stderr": 0.0033597006648929386
+   },
+   "v": {
+    "value": 0.010054401061912667,
+    "vary": false,
+    "min": -0.5,
+    "max": 0.5,
+    "expr": null,
+    "unit": "deg^2",
+    "stderr": 0.0031776634164858465
+   },
+   "w": {
+    "value": 0.0011961537963965107,
+    "vary": false,
+    "min": 1e-08,
+    "max": 1.0,
+    "expr": null,
+    "unit": "deg^2",
+    "stderr": 0.000730397883047147
+   },
+   "x": {
+    "value": 0.016045351952668464,
+    "vary": false,
+    "min": 0.0,
+    "max": 1.0,
+    "expr": null,
+    "unit": "deg",
+    "stderr": 0.002403850553208369
+   },
+   "y": {
+    "value": 0.035787522489176465,
+    "vary": false,
+    "min": 0.0,
+    "max": 1.0,
+    "expr": null,
+    "unit": "deg",
+    "stderr": 0.006443594360041353
+   }
+  }
+ }
+}
